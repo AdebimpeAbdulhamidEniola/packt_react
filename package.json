@@ -3,12 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-
   "scripts": {
     "lint": "eslint src",
     "prepare": "husky install"
   },
-  
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
@@ -27,5 +25,8 @@
       "npx prettier --write",
       "npx eslint --fix"
     ]
+  },
+  "dependencies": {
+    "mongoose": "^8.16.1"
   }
 }
