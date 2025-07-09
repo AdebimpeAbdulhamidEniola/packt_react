@@ -1,5 +1,5 @@
-import mongoose from 'mongooose'
-import { beforeAll, afterAll } from '"@est/globals'
+import mongoose from 'mongoose'
+import { beforeAll, afterAll } from '@jest/globals'
 
 import { initDatabase } from '../db/init.js'
 
