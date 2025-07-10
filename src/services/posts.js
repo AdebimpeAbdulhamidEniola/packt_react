@@ -31,6 +31,10 @@ export async function updatePost(postId, { title, author, contents, tags }) {
   )
 }
 
+export async function getPostById(postId) {
+  return await Post.findById(postId)
+}
+
 export async function deletePost(postId) {
   return await Post.deleteOne({ _id: postId })
 }
